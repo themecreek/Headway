@@ -18,6 +18,9 @@ You are not allowed to use this for commerical uses at this time, keep it free f
 
 **21 februari 2016**
 
+--*v1.1.0*--
+> The app works but live previewing for all the options does not unless you reload. 
+
 --*v1.0.0*--
 > Initial release much to do
 
