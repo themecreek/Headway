@@ -32,7 +32,6 @@
       },
       "title": {
               "title": "Changelog Title",
-              "description": "Change the default title like Eager.io Changelog to your own custom title.",
               "default": "[Company Name] Changelog",
               "order": 3,
               "type": "string"

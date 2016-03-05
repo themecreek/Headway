@@ -1,4 +1,4 @@
-The Eager app to help integrate and customize the changelog as a service: https://headwayapp.co/. =)
+The app to help integrate and easly customize the changelog as a service: https://headwayapp.co/. =)
 
 Install with Eager:
 
@@ -12,14 +12,16 @@ Goes to the creator of headway.co for making such a simple yet creative idea to 
 
 ## License: GNU V 2.0
 
-You are not allowed to use this for commerical uses at this time, keep it free for all. 
+You are not allowed to use this for commerical use at this time, keep it free for all. 
 
 ## Changelog 
 
-**21 februari 2016**
+**5 March 2016**
 
 --*v1.1.0*--
-> The app works but live previewing for all the options does not unless you reload. 
+> Second release and final for now until headwayapp is out of beta. 
+
+**21 februari 2016**
 
 --*v1.0.0*--
 > Initial release much to do
