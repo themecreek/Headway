@@ -32,7 +32,7 @@
       },
       "title": {
               "title": "Changelog Title",
-              "default": "[Company Name] Changelog",
+              "placeholder": "[Company Name] Changelog",
               "order": 3,
               "type": "string"
       },
