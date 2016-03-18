@@ -32,28 +32,28 @@
       },
       "title": {
               "title": "Changelog Title",
-              "placeholder": "[Company Name] Changelog",
+              "default": "[Company Name] Changelog",
               "order": 3,
               "type": "string"
       },
       "labelnew": {
               "title": "Label New",
               "description": "Change the label <span style='color: #5AB987;'>New</span> to something else.",
-              "placeholder": "New",
+              "default": "New",
               "order": 4,
               "type": "string"
       },
        "labelimprovement": {
               "title": "Label Improvement",
               "description": "Change the label <span style='color: #8D66B9;'>Improvement</span> to something else.",
-              "placeholder": "Improvement",
+              "default": "Improvement",
               "order": 5,
               "type": "string"
       },
        "labelfix": {
               "title": "Label Fix",
               "description": "Change the label <span style='color: #F5A623;'>Fix</span> to something else.",
-              "placeholder": "Fix",
+              "default": "Fix",
               "order": 6,
               "type": "string"
       }
