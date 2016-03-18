@@ -22,7 +22,7 @@
         "title": "Headway Account ID",
         "description": "Grab this from your settings > widget tab on headwayapp.co.",
         "type": "string",
-        "default": "4xWvcy"
+        "placeholder": "4xWvcy"
       },
       "location": {
         "title": "Location",
@@ -39,21 +39,21 @@
       "labelnew": {
               "title": "Label New",
               "description": "Change the label <span style='color: #5AB987;'>New</span> to something else.",
-              "default": "New",
+              "placeholder": "New",
               "order": 4,
               "type": "string"
       },
        "labelimprovement": {
               "title": "Label Improvement",
               "description": "Change the label <span style='color: #8D66B9;'>Improvement</span> to something else.",
-              "default": "Improvement",
+              "placeholder": "Improvement",
               "order": 5,
               "type": "string"
       },
        "labelfix": {
               "title": "Label Fix",
               "description": "Change the label <span style='color: #F5A623;'>Fix</span> to something else.",
-              "default": "Fix",
+              "placeholder": "Fix",
               "order": 6,
               "type": "string"
       }
