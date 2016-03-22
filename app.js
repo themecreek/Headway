@@ -41,8 +41,7 @@
     if (!window.addEventListener || !options.id) {
         return;
     } 
-      async('cdn.headwayapp.co/widget.js', function() {       
-      });
+    async('cdn.headwayapp.co/widget.js', function() {});
     };
     var setOptions = function(opts) {
         options = opts;

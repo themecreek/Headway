@@ -39,41 +39,41 @@
       "title": {
               "title": "Changelog Title",
               "default": "[Company Name] Changelog",
-              "order": 3,
+              "order": 4,
               "type": "string",
-        "showIf": {
-           "translate": true
-         }
+              "showIf": {
+                "translate": true
+              }
       },
       "labelNew": {
               "title": "Label New",
               "description": "Give an other label value for 'New' then the one provided below.",
               "default": "New",
-              "order": 4,
+              "order": 5,
               "type": "string",
-        "showIf": {
-           "translate": true
-         }
+              "showIf": {
+                "translate": true
+              }
       },
        "labelImprovement": {
               "title": "Label Improvement",
               "description": "Give an other label value for 'Improvement' then the one provided below.",
               "default": "Improvement",
-              "order": 5,
+              "order": 6,
               "type": "string",
-        "showIf": {
-           "translate": true
-         }
+              "showIf": {
+                "translate": true
+              }
       },
        "labelFix": {
               "title": "Label Fix",
               "description": "Give an other label value for 'Fix' then the one provided below.",
               "default": "Fix",
-              "order": 6,
+              "order": 7,
               "type": "string",
-         "showIf": {
-           "translate": true
-         }
+                "showIf": {
+                    "translate": true
+              }
       }
     }
   }
