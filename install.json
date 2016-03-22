@@ -7,15 +7,7 @@
       }
     ]
   },
-  "preview": {
-    "handlers": [
-      {
-        "options": ["*"],
-        "execute": "INSTALL_SCOPE.setOptions(INSTALL_OPTIONS)"
-      }
-    ]
-  },
-"options": {
+  "options": {
     "properties": {
       "id": {
         "order": 1,
@@ -26,8 +18,8 @@
       },
       "location": {
         "title": "Location",
-        "type": "string",
-        "format": "selector",
+        "type": "object",
+        "format": "element",
         "order": 2
       },
       "translate": {
@@ -37,43 +29,43 @@
         "order": 3
       },
       "title": {
-              "title": "Changelog Title",
-              "default": "[Company Name] Changelog",
-              "order": 4,
-              "type": "string",
-              "showIf": {
-                "translate": true
-              }
+        "title": "Changelog Title",
+        "default": "[Company Name] Changelog",
+        "order": 4,
+        "type": "string",
+        "showIf": {
+          "translate": true
+        }
       },
       "labelNew": {
-              "title": "Label New",
-              "description": "Give an other label value for 'New' then the one provided below.",
-              "default": "New",
-              "order": 5,
-              "type": "string",
-              "showIf": {
-                "translate": true
-              }
+        "title": "Label New",
+        "description": "Give an other label value for 'New' then the one provided below.",
+        "default": "New",
+        "order": 5,
+        "type": "string",
+        "showIf": {
+          "translate": true
+        }
       },
-       "labelImprovement": {
-              "title": "Label Improvement",
-              "description": "Give an other label value for 'Improvement' then the one provided below.",
-              "default": "Improvement",
-              "order": 6,
-              "type": "string",
-              "showIf": {
-                "translate": true
-              }
+      "labelImprovement": {
+        "title": "Label Improvement",
+        "description": "Give an other label value for 'Improvement' then the one provided below.",
+        "default": "Improvement",
+        "order": 6,
+        "type": "string",
+        "showIf": {
+          "translate": true
+        }
       },
-       "labelFix": {
-              "title": "Label Fix",
-              "description": "Give an other label value for 'Fix' then the one provided below.",
-              "default": "Fix",
-              "order": 7,
-              "type": "string",
-                "showIf": {
-                    "translate": true
-              }
+      "labelFix": {
+        "title": "Label Fix",
+        "description": "Give an other label value for 'Fix' then the one provided below.",
+        "default": "Fix",
+        "order": 7,
+        "type": "string",
+        "showIf": {
+          "translate": true
+        }
       }
     }
   }
