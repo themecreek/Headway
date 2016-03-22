@@ -12,9 +12,14 @@ Goes to the creator of headway.co for making such a simple yet creative idea to 
 
 ## License: GNU V 2.0
 
-You are not allowed to use this for commerical use at this time, keep it free for all. 
+Use it on any website as long you do not sell or profit from the plugin in a direct way and always give attribution on your website when possible or through //comment in the code when using any code this plugin has been licensed with. Also keep the license present with these files at all times.
 
 ## Changelog 
+
+**21 March 2016**
+
+--*v1.3.0*--
+> The app is stable and finished for now.  
 
 **5 March 2016**
 
