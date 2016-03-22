@@ -1,8 +1,5 @@
 (function() {
     var options = INSTALL_OPTIONS;
-    if (!window.addEventListener || !options.accid) {
-        return;
-    }   
     style = document.createElement('style');
     document.head.appendChild(style);
     style.innerHTML = (
@@ -10,19 +7,26 @@
       'display: inline-block !important;' +
       '}'
     ); 
-    render = function() {
+    render = function() {     
+        if (options.translate) {        
         window.HW_config = {
-            account: options.accid,
+            account: options.id,
             selector: options.location,
             translations: {
-                title: options.title,
+                title: options.title, 
                 labels: {
-                    "new": options.labelnew,
-                    "improvements": options.labelimprovement,
-                    "fix": options.labelfix
+                    "new": options.labelNew,
+                    "improvements": options.labelImprovement,
+                    "fix": options.labelFix
                 }
             }
+        };     
+        } else {
+           window.HW_config = {
+            account: options.id,
+            selector: options.location
         };
+        }     
     };
     var async = function(u, c) {
         var d = document, t = 'script',
@@ -34,9 +38,11 @@
     };
     var initApp = function() {
         render();
-        async('cdn.headwayapp.co/widget.js', function() {
-            // do your things here           
-        });
+    if (!window.addEventListener || !options.id) {
+        return;
+    } 
+      async('cdn.headwayapp.co/widget.js', function() {       
+      });
     };
     var setOptions = function(opts) {
         options = opts;

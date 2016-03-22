@@ -1,6 +1,6 @@
 {
   "resources": {
-    "body": [
+    "head": [
       {
         "type": "script",
         "src": "app.js"
@@ -17,7 +17,7 @@
   },
 "options": {
     "properties": {
-      "accid": {
+      "id": {
         "order": 1,
         "title": "Headway Account ID",
         "description": "Grab this from your settings > widget tab on headwayapp.co.",
@@ -30,32 +30,50 @@
         "format": "selector",
         "order": 2
       },
+      "translate": {
+        "title": "Customize Labels",
+        "type": "boolean",
+        "default": false,
+        "order": 3
+      },
       "title": {
               "title": "Changelog Title",
               "default": "[Company Name] Changelog",
               "order": 3,
-              "type": "string"
+              "type": "string",
+        "showIf": {
+           "translate": true
+         }
       },
-      "labelnew": {
+      "labelNew": {
               "title": "Label New",
-              "description": "Change the label <span style='color: #5AB987;'>New</span> to something else.",
+              "description": "Give an other label value for 'New' then the one provided below.",
               "default": "New",
               "order": 4,
-              "type": "string"
+              "type": "string",
+        "showIf": {
+           "translate": true
+         }
       },
-       "labelimprovement": {
+       "labelImprovement": {
               "title": "Label Improvement",
-              "description": "Change the label <span style='color: #8D66B9;'>Improvement</span> to something else.",
+              "description": "Give an other label value for 'Improvement' then the one provided below.",
               "default": "Improvement",
               "order": 5,
-              "type": "string"
+              "type": "string",
+        "showIf": {
+           "translate": true
+         }
       },
-       "labelfix": {
+       "labelFix": {
               "title": "Label Fix",
-              "description": "Change the label <span style='color: #F5A623;'>Fix</span> to something else.",
+              "description": "Give an other label value for 'Fix' then the one provided below.",
               "default": "Fix",
               "order": 6,
-              "type": "string"
+              "type": "string",
+         "showIf": {
+           "translate": true
+         }
       }
     }
   }
